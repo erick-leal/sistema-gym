@@ -1,0 +1,423 @@
+/*
+The MIT License
+
+Copyright 2014 Vadim Oparin <snusmumriken@art-focus.ru>.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+
+/* 
+    Created on : 05.06.2014, 14:22:53
+    Author     : Vadim Oparin <snusmumriken@art-focus.ru>
+*/
+
+/* Standard icons colors
+ * --------------------------------- */
+
+i.amber.icon {
+	color: #f3ce00 !important;
+}
+
+i.tangerine.icon {
+	color: #f98e2B !important;
+}
+
+i.coralline.icon {
+	color: #fa96a0 !important;
+}
+
+i.alizarin.icon {
+	color: #e63f52 !important;
+}
+
+i.lilac.icon {
+	color: #d1acd4 !important;
+}
+
+i.fuchsia.icon {
+	color: #6d2a5c !important;
+}
+
+i.bondi-blue.icon {
+	color: #62b1bd !important;
+}
+
+i.azure.icon {
+	color: #005587 !important;
+}
+
+i.pistachio.icon {
+	color: #a3d55f !important;
+}
+
+i.mint.icon {
+	color: #00833f !important;
+}
+
+i.argentine.icon {
+	color: #d0d3d4 !important;
+}
+
+i.anthracite.icon {
+	color: #5b6770 !important;
+}
+
+/* Standard icons inverted colors
+ * --------------------------------- */
+
+i.inverted.amber.icon {
+	background-color: #f3ce00 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.tangerine.icon {
+	background-color: #f98e2B !important;
+	color: #ffffff !important;
+}
+
+i.inverted.coralline.icon {
+	background-color: #fa96a0 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.alizarin.icon {
+	background-color: #e63f52 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.lilac.icon {
+	background-color: #d1acd4 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.fuchsia.icon {
+	background-color: #6d2a5c !important;
+	color: #ffffff !important;
+}
+
+i.inverted.bondi-blue.icon {
+	background-color: #62b1bd !important;
+	color: #ffffff !important;
+}
+
+i.inverted.azure.icon {
+	background-color: #005587 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.pistachio.icon {
+	background-color: #a3d55f !important;
+	color: #ffffff !important;
+}
+
+i.inverted.mint.icon {
+	background-color: #00833f !important;
+	color: #ffffff !important;
+}
+
+i.inverted.argentine.icon {
+	background-color: #d0d3d4 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.anthracite.icon {
+	background-color: #5b6770 !important;
+	color: #ffffff !important;
+}
+
+/* Basic icons colors
+ * --------------------------------- */
+
+i.amber.basic.icon {
+	color: #f3ce00 !important;
+}
+
+i.tangerine.basic.icon {
+	color: #f98e2B !important;
+}
+
+i.coralline.basic.icon {
+	color: #fa96a0 !important;
+}
+
+i.alizarin.basic.icon {
+	color: #e63f52 !important;
+}
+
+i.lilac.basic.icon {
+	color: #d1acd4 !important;
+}
+
+i.fuchsia.basic.icon {
+	color: #6d2a5c !important;
+}
+
+i.bondi-blue.basic.icon {
+	color: #62b1bd !important;
+}
+
+i.azure.basic.icon {
+	color: #005587 !important;
+}
+
+i.pistachio.basic.icon {
+	color: #a3d55f !important;
+}
+
+i.mint.basic.icon {
+	color: #00833f !important;
+}
+
+i.argentine.basic.icon {
+	color: #d0d3d4 !important;
+}
+
+i.anthracite.basic.icon {
+	color: #5b6770 !important;
+}
+
+/* Basic icons inverted colors
+ * --------------------------------- */
+
+i.inverted.amber.basic.icon {
+	background-color: #f3ce00 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.tangerine.basic.icon {
+	background-color: #f98e2B !important;
+	color: #ffffff !important;
+}
+
+i.inverted.coralline.basic.icon {
+	background-color: #fa96a0 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.alizarin.basic.icon {
+	background-color: #e63f52 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.lilac.basic.icon {
+	background-color: #d1acd4 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.fuchsia.basic.icon {
+	background-color: #6d2a5c !important;
+	color: #ffffff !important;
+}
+
+i.inverted.bondi-blue.basic.icon {
+	background-color: #62b1bd !important;
+	color: #ffffff !important;
+}
+
+i.inverted.azure.basic.icon {
+	background-color: #005587 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.pistachio.basic.icon {
+	background-color: #a3d55f !important;
+	color: #ffffff !important;
+}
+
+i.inverted.mint.basic.icon {
+	background-color: #00833f !important;
+	color: #ffffff !important;
+}
+
+i.inverted.argentine.basic.icon {
+	background-color: #d0d3d4 !important;
+	color: #ffffff !important;
+}
+
+i.inverted.anthracite.basic.icon {
+	background-color: #5b6770 !important;
+	color: #ffffff !important;
+}
+
+/* Segment colors
+ * --------------------------------- */
+
+.ui.amber.segment {
+	border-top: 0.2em solid #f3ce00;
+}
+
+.ui.tangerine.segment {
+	border-top: 0.2em solid #f98e2B;
+}
+
+.ui.coralline.segment {
+	border-top: 0.2em solid #fa96a0;
+}
+
+.ui.alizarin.segment {
+	border-top: 0.2em solid #e63f52;
+}
+
+.ui.lilac.segment {
+	border-top: 0.2em solid #d1acd4;
+}
+
+.ui.fuchsia.segment {
+	border-top: 0.2em solid #6d2a5c;
+}
+
+.ui.bondi-blue.segment {
+	border-top: 0.2em solid #62b1bd;
+}
+
+.ui.azure.segment {
+	border-top: 0.2em solid #005587;
+}
+
+.ui.pistachio.segment {
+	border-top: 0.2em solid #a3d55f;
+}
+
+.ui.mint.segment {
+	border-top: 0.2em solid #00833f;
+}
+
+.ui.argentine.segment {
+	border-top: 0.2em solid #d0d3d4;
+}
+
+.ui.anthracite.segment {
+	border-top: 0.2em solid #5b6770;
+}
+
+/* Inverted segment colors
+ * --------------------------------- */
+
+.ui.inverted.amber.segment {
+	background-color: #f3ce00 !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.tangerine.segment {
+	background-color: #f98e2B !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.coralline.segment {
+	background-color: #fa96a0 !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.alizarin.segment {
+	background-color: #e63f52 !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.lilac.segment {
+	background-color: #d1acd4 !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.fuchsia.segment {
+	background-color: #6d2a5c !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.bondi-blue.segment {
+	background-color: #62b1bd !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.azure.segment {
+	background-color: #005587 !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.pistachio.segment {
+	background-color: #a3d55f !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.mint.segment {
+	background-color: #00833f !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.argentine.segment {
+	background-color: #d0d3d4 !important;
+	color: #ffffff !important;
+}
+
+.ui.inverted.anthracite.segment {
+	background-color: #5b6770 !important;
+	color: #ffffff !important;
+}
+
+/* Header colors
+ * --------------------------------- */
+
+.ui.amber.header {
+	color: #f3ce00 !important;
+}
+
+.ui.tangerine.header {
+	color: #f98e2B !important;
+}
+
+.ui.coralline.header {
+	color: #fa96a0 !important;
+}
+
+.ui.alizarin.header {
+	color: #e63f52 !important;
+}
+
+.ui.lilac.header {
+	color: #d1acd4 !important;
+}
+
+.ui.fuchsia.header {
+	color: #6d2a5c !important;
+}
+
+.ui.bondi-blue.header {
+	color: #62b1bd !important;
+}
+
+.ui.azure.header {
+	color: #005587 !important;
+}
+
+.ui.pistachio.header {
+	color: #a3d55f !important;
+}
+
+.ui.mint.header {
+	color: #00833f !important;
+}
+
+.ui.argentine.header {
+	color: #d0d3d4 !important;
+}
+
+.ui.anthracite.header {
+	color: #5b6770 !important;
+}
+
+

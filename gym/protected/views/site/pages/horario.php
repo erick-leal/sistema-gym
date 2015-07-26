@@ -1,0 +1,1 @@
+<img class="ui right floated image" src="images/horario gym.jpg">
